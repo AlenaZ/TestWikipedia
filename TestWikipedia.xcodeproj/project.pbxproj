@@ -1,0 +1,645 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3659537A6E1498C5578F7DC6 /* libPods-TestWikipedia.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 69C22038E9A514C02C0D0ADC /* libPods-TestWikipedia.a */; };
+		7F1DFB5B1E695882002FB715 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB5A1E695882002FB715 /* main.m */; };
+		7F1DFB5E1E695882002FB715 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB5D1E695882002FB715 /* AppDelegate.m */; };
+		7F1DFB641E695882002FB715 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DFB621E695882002FB715 /* Main.storyboard */; };
+		7F1DFB661E695882002FB715 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DFB651E695882002FB715 /* Assets.xcassets */; };
+		7F1DFB691E695882002FB715 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F1DFB671E695882002FB715 /* LaunchScreen.storyboard */; };
+		7F1DFB741E695882002FB715 /* TestWikipediaTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB731E695882002FB715 /* TestWikipediaTests.m */; };
+		7F1DFB7F1E695882002FB715 /* TestWikipediaUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB7E1E695882002FB715 /* TestWikipediaUITests.m */; };
+		7F1DFB8E1E6958B4002FB715 /* TWMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB8D1E6958B4002FB715 /* TWMainViewController.m */; };
+		7F1DFB911E6959B5002FB715 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F1DFB901E6959B5002FB715 /* CoreLocation.framework */; };
+		7F1DFB9C1E696000002FB715 /* TWHTTPClient.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB9B1E696000002FB715 /* TWHTTPClient.m */; };
+		7F1DFBA01E69677C002FB715 /* TWArticle.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFB9F1E69677C002FB715 /* TWArticle.m */; };
+		7F1DFBA31E69714E002FB715 /* TWJSONToObjectTransformer.m in Sources */ = {isa = PBXBuildFile; fileRef = 7F1DFBA21E69714E002FB715 /* TWJSONToObjectTransformer.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7F1DFB701E695882002FB715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F1DFB4E1E695882002FB715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1DFB551E695882002FB715;
+			remoteInfo = TestWikipedia;
+		};
+		7F1DFB7B1E695882002FB715 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7F1DFB4E1E695882002FB715 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 7F1DFB551E695882002FB715;
+			remoteInfo = TestWikipedia;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		69C22038E9A514C02C0D0ADC /* libPods-TestWikipedia.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-TestWikipedia.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		7C540917905A7D586A94AC08 /* Pods-TestWikipedia.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWikipedia.release.xcconfig"; path = "Pods/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia.release.xcconfig"; sourceTree = "<group>"; };
+		7F1DFB561E695882002FB715 /* TestWikipedia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TestWikipedia.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DFB5A1E695882002FB715 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7F1DFB5C1E695882002FB715 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		7F1DFB5D1E695882002FB715 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		7F1DFB631E695882002FB715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F1DFB651E695882002FB715 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F1DFB681E695882002FB715 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F1DFB6A1E695882002FB715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1DFB6F1E695882002FB715 /* TestWikipediaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWikipediaTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DFB731E695882002FB715 /* TestWikipediaTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWikipediaTests.m; sourceTree = "<group>"; };
+		7F1DFB751E695882002FB715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1DFB7A1E695882002FB715 /* TestWikipediaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestWikipediaUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F1DFB7E1E695882002FB715 /* TestWikipediaUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TestWikipediaUITests.m; sourceTree = "<group>"; };
+		7F1DFB801E695882002FB715 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F1DFB8C1E6958B4002FB715 /* TWMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWMainViewController.h; sourceTree = "<group>"; };
+		7F1DFB8D1E6958B4002FB715 /* TWMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWMainViewController.m; sourceTree = "<group>"; };
+		7F1DFB901E6959B5002FB715 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		7F1DFB921E695A68002FB715 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		7F1DFB941E695A72002FB715 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		7F1DFB961E695A96002FB715 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		7F1DFB981E695AA3002FB715 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		7F1DFB9A1E696000002FB715 /* TWHTTPClient.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWHTTPClient.h; sourceTree = "<group>"; };
+		7F1DFB9B1E696000002FB715 /* TWHTTPClient.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWHTTPClient.m; sourceTree = "<group>"; };
+		7F1DFB9D1E696541002FB715 /* TestWikipedia-PrefixHeader.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "TestWikipedia-PrefixHeader.pch"; sourceTree = "<group>"; };
+		7F1DFB9E1E69677C002FB715 /* TWArticle.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWArticle.h; sourceTree = "<group>"; };
+		7F1DFB9F1E69677C002FB715 /* TWArticle.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWArticle.m; sourceTree = "<group>"; };
+		7F1DFBA11E69714E002FB715 /* TWJSONToObjectTransformer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TWJSONToObjectTransformer.h; sourceTree = "<group>"; };
+		7F1DFBA21E69714E002FB715 /* TWJSONToObjectTransformer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TWJSONToObjectTransformer.m; sourceTree = "<group>"; };
+		CCE391550AC7FDD6F601D566 /* Pods-TestWikipedia.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-TestWikipedia.debug.xcconfig"; path = "Pods/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F1DFB531E695882002FB715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DFB911E6959B5002FB715 /* CoreLocation.framework in Frameworks */,
+				3659537A6E1498C5578F7DC6 /* libPods-TestWikipedia.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB6C1E695882002FB715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB771E695882002FB715 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7F1DFB4D1E695882002FB715 = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB581E695882002FB715 /* TestWikipedia */,
+				7F1DFB721E695882002FB715 /* TestWikipediaTests */,
+				7F1DFB7D1E695882002FB715 /* TestWikipediaUITests */,
+				7F1DFB571E695882002FB715 /* Products */,
+				7F1DFB8F1E6959B5002FB715 /* Frameworks */,
+				EF0FFCD170298DAA57C7BDAB /* Pods */,
+			);
+			sourceTree = "<group>";
+		};
+		7F1DFB571E695882002FB715 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB561E695882002FB715 /* TestWikipedia.app */,
+				7F1DFB6F1E695882002FB715 /* TestWikipediaTests.xctest */,
+				7F1DFB7A1E695882002FB715 /* TestWikipediaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F1DFB581E695882002FB715 /* TestWikipedia */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB5C1E695882002FB715 /* AppDelegate.h */,
+				7F1DFB5D1E695882002FB715 /* AppDelegate.m */,
+				7F1DFB9A1E696000002FB715 /* TWHTTPClient.h */,
+				7F1DFB9B1E696000002FB715 /* TWHTTPClient.m */,
+				7F1DFBA11E69714E002FB715 /* TWJSONToObjectTransformer.h */,
+				7F1DFBA21E69714E002FB715 /* TWJSONToObjectTransformer.m */,
+				7F1DFB8C1E6958B4002FB715 /* TWMainViewController.h */,
+				7F1DFB8D1E6958B4002FB715 /* TWMainViewController.m */,
+				7F1DFB9E1E69677C002FB715 /* TWArticle.h */,
+				7F1DFB9F1E69677C002FB715 /* TWArticle.m */,
+				7F1DFB621E695882002FB715 /* Main.storyboard */,
+				7F1DFB651E695882002FB715 /* Assets.xcassets */,
+				7F1DFB671E695882002FB715 /* LaunchScreen.storyboard */,
+				7F1DFB6A1E695882002FB715 /* Info.plist */,
+				7F1DFB591E695882002FB715 /* Supporting Files */,
+			);
+			path = TestWikipedia;
+			sourceTree = "<group>";
+		};
+		7F1DFB591E695882002FB715 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB5A1E695882002FB715 /* main.m */,
+				7F1DFB9D1E696541002FB715 /* TestWikipedia-PrefixHeader.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		7F1DFB721E695882002FB715 /* TestWikipediaTests */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB731E695882002FB715 /* TestWikipediaTests.m */,
+				7F1DFB751E695882002FB715 /* Info.plist */,
+			);
+			path = TestWikipediaTests;
+			sourceTree = "<group>";
+		};
+		7F1DFB7D1E695882002FB715 /* TestWikipediaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB7E1E695882002FB715 /* TestWikipediaUITests.m */,
+				7F1DFB801E695882002FB715 /* Info.plist */,
+			);
+			path = TestWikipediaUITests;
+			sourceTree = "<group>";
+		};
+		7F1DFB8F1E6959B5002FB715 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7F1DFB981E695AA3002FB715 /* CoreGraphics.framework */,
+				7F1DFB961E695A96002FB715 /* Foundation.framework */,
+				7F1DFB941E695A72002FB715 /* AVFoundation.framework */,
+				7F1DFB921E695A68002FB715 /* UIKit.framework */,
+				7F1DFB901E6959B5002FB715 /* CoreLocation.framework */,
+				69C22038E9A514C02C0D0ADC /* libPods-TestWikipedia.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		EF0FFCD170298DAA57C7BDAB /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CCE391550AC7FDD6F601D566 /* Pods-TestWikipedia.debug.xcconfig */,
+				7C540917905A7D586A94AC08 /* Pods-TestWikipedia.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F1DFB551E695882002FB715 /* TestWikipedia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1DFB831E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipedia" */;
+			buildPhases = (
+				0605086059E6C1F8B667751E /* [CP] Check Pods Manifest.lock */,
+				7F1DFB521E695882002FB715 /* Sources */,
+				7F1DFB531E695882002FB715 /* Frameworks */,
+				7F1DFB541E695882002FB715 /* Resources */,
+				D0B2265F99CB72226E4A406F /* [CP] Embed Pods Frameworks */,
+				CD5FA06B117403513BE4501D /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = TestWikipedia;
+			productName = TestWikipedia;
+			productReference = 7F1DFB561E695882002FB715 /* TestWikipedia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		7F1DFB6E1E695882002FB715 /* TestWikipediaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1DFB861E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipediaTests" */;
+			buildPhases = (
+				7F1DFB6B1E695882002FB715 /* Sources */,
+				7F1DFB6C1E695882002FB715 /* Frameworks */,
+				7F1DFB6D1E695882002FB715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1DFB711E695882002FB715 /* PBXTargetDependency */,
+			);
+			name = TestWikipediaTests;
+			productName = TestWikipediaTests;
+			productReference = 7F1DFB6F1E695882002FB715 /* TestWikipediaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		7F1DFB791E695882002FB715 /* TestWikipediaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F1DFB891E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipediaUITests" */;
+			buildPhases = (
+				7F1DFB761E695882002FB715 /* Sources */,
+				7F1DFB771E695882002FB715 /* Frameworks */,
+				7F1DFB781E695882002FB715 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7F1DFB7C1E695882002FB715 /* PBXTargetDependency */,
+			);
+			name = TestWikipediaUITests;
+			productName = TestWikipediaUITests;
+			productReference = 7F1DFB7A1E695882002FB715 /* TestWikipediaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F1DFB4E1E695882002FB715 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Alyona Zaikina";
+				TargetAttributes = {
+					7F1DFB551E695882002FB715 = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = M2JU5GL33Y;
+						ProvisioningStyle = Automatic;
+					};
+					7F1DFB6E1E695882002FB715 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F1DFB551E695882002FB715;
+					};
+					7F1DFB791E695882002FB715 = {
+						CreatedOnToolsVersion = 8.2.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 7F1DFB551E695882002FB715;
+					};
+				};
+			};
+			buildConfigurationList = 7F1DFB511E695882002FB715 /* Build configuration list for PBXProject "TestWikipedia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F1DFB4D1E695882002FB715;
+			productRefGroup = 7F1DFB571E695882002FB715 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F1DFB551E695882002FB715 /* TestWikipedia */,
+				7F1DFB6E1E695882002FB715 /* TestWikipediaTests */,
+				7F1DFB791E695882002FB715 /* TestWikipediaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F1DFB541E695882002FB715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DFB691E695882002FB715 /* LaunchScreen.storyboard in Resources */,
+				7F1DFB661E695882002FB715 /* Assets.xcassets in Resources */,
+				7F1DFB641E695882002FB715 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB6D1E695882002FB715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB781E695882002FB715 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		0605086059E6C1F8B667751E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		CD5FA06B117403513BE4501D /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D0B2265F99CB72226E4A406F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-TestWikipedia/Pods-TestWikipedia-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F1DFB521E695882002FB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DFB8E1E6958B4002FB715 /* TWMainViewController.m in Sources */,
+				7F1DFB5E1E695882002FB715 /* AppDelegate.m in Sources */,
+				7F1DFBA31E69714E002FB715 /* TWJSONToObjectTransformer.m in Sources */,
+				7F1DFB5B1E695882002FB715 /* main.m in Sources */,
+				7F1DFB9C1E696000002FB715 /* TWHTTPClient.m in Sources */,
+				7F1DFBA01E69677C002FB715 /* TWArticle.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB6B1E695882002FB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DFB741E695882002FB715 /* TestWikipediaTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7F1DFB761E695882002FB715 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F1DFB7F1E695882002FB715 /* TestWikipediaUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		7F1DFB711E695882002FB715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1DFB551E695882002FB715 /* TestWikipedia */;
+			targetProxy = 7F1DFB701E695882002FB715 /* PBXContainerItemProxy */;
+		};
+		7F1DFB7C1E695882002FB715 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 7F1DFB551E695882002FB715 /* TestWikipedia */;
+			targetProxy = 7F1DFB7B1E695882002FB715 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		7F1DFB621E695882002FB715 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1DFB631E695882002FB715 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		7F1DFB671E695882002FB715 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				7F1DFB681E695882002FB715 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		7F1DFB811E695882002FB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7F1DFB821E695882002FB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F1DFB841E695882002FB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CCE391550AC7FDD6F601D566 /* Pods-TestWikipedia.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2JU5GL33Y;
+				GCC_PREFIX_HEADER = "TestWikipedia/TestWikipedia-PrefixHeader.pch";
+				INFOPLIST_FILE = TestWikipedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		7F1DFB851E695882002FB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7C540917905A7D586A94AC08 /* Pods-TestWikipedia.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = M2JU5GL33Y;
+				GCC_PREFIX_HEADER = "TestWikipedia/TestWikipedia-PrefixHeader.pch";
+				INFOPLIST_FILE = TestWikipedia/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipedia;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		7F1DFB871E695882002FB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestWikipediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWikipedia.app/TestWikipedia";
+			};
+			name = Debug;
+		};
+		7F1DFB881E695882002FB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = TestWikipediaTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipediaTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/TestWikipedia.app/TestWikipedia";
+			};
+			name = Release;
+		};
+		7F1DFB8A1E695882002FB715 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestWikipediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestWikipedia;
+			};
+			name = Debug;
+		};
+		7F1DFB8B1E695882002FB715 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = TestWikipediaUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.alyonacompany.TestWikipediaUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = TestWikipedia;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F1DFB511E695882002FB715 /* Build configuration list for PBXProject "TestWikipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1DFB811E695882002FB715 /* Debug */,
+				7F1DFB821E695882002FB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1DFB831E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipedia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1DFB841E695882002FB715 /* Debug */,
+				7F1DFB851E695882002FB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1DFB861E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipediaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1DFB871E695882002FB715 /* Debug */,
+				7F1DFB881E695882002FB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F1DFB891E695882002FB715 /* Build configuration list for PBXNativeTarget "TestWikipediaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F1DFB8A1E695882002FB715 /* Debug */,
+				7F1DFB8B1E695882002FB715 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7F1DFB4E1E695882002FB715 /* Project object */;
+}
