@@ -10,6 +10,6 @@
 
 @interface TWJSONToObjectTransformer : NSObject
 
-+ (NSArray *)transformArticleFromJSONArray:(id)jsonObject;
++ (NSArray *)getImagesNamesFromJSONArray:(id)jsonObject;
 
 @end

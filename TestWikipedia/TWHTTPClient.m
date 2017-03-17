@@ -52,7 +52,8 @@ static NSString * const baseUrlStr = @"https://en.wikipedia.org//w/";
     NSString *itemsCount = @"50";
     NSDictionary *parametersDic = @{@"action":@"query",
                                     @"format":@"json",
-                                    @"prop":@"pageimages|pageterms",
+                                    @"prop":@"pageimages|pageterms|images",
+                                    @"imlimit":@"500",
                                     @"generator":@"geosearch",
                                     @"piprop":@"name",
                                     @"pilimit":itemsCount,
@@ -63,7 +64,7 @@ static NSString * const baseUrlStr = @"https://en.wikipedia.org//w/";
                                     };
     
     [self.manager POST:@"api.php" parameters:parametersDic success:^(AFHTTPRequestOperation *operation, id responseObject){
-        NSArray *articlesArr = [TWJSONToObjectTransformer transformArticleFromJSONArray:responseObject];
+        NSArray *articlesArr = [TWJSONToObjectTransformer getImagesNamesFromJSONArray:responseObject];
         success(articlesArr);
     }failure:^(AFHTTPRequestOperation *operation, NSError *error){
         failure(error.localizedDescription);

@@ -11,5 +11,6 @@
 @interface TWArticle : NSObject
 
 @property (nonatomic, strong) NSString *pageImageStr;
+@property (nonatomic, strong) NSArray *pageImageArr;
 
 @end
